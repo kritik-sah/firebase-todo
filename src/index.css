@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url('https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/05/snow_mass/22027413-1-eng-GB/Snow_mass_pillars.jpg') no-repeat fixed center ;
+  background-size: cover;
+
+  
 }
 
 code {
