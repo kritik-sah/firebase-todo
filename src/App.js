@@ -5,6 +5,7 @@ import Todo from './Todo'
 import AddCircleOutlineIcon from '@material-ui/icons/AddCircleOutline';
 import {db} from './firebase';
 import firebase from 'firebase';
+import Nav from './Nav';
 
 function App() {
   const [todos , setTodos] = useState([]);
@@ -29,11 +30,12 @@ const stack = (event) => {
 
   return (
     <div className="App">
+    <Nav />
     <Container className="task-container" maxWidth="md">
-      <h1>Hello & Welcome to Fire-ToDo APP.</h1>
+      <h1 className="spacer" >Hello & Welcome to Fire-ToDo APP.</h1>
       <form>
       <FormControl>
-        <InputLabel >🐱‍🏍Add a Task</InputLabel>
+        <InputLabel >👍Add a Task</InputLabel>
         <Input value={input} onChange={event => setInput(event.target.value)} />
       </FormControl>
       <Button disabled={!input} type='submit' onClick={stack} variant="contained" color="primary" >Stack &nbsp; <AddCircleOutlineIcon /></Button>

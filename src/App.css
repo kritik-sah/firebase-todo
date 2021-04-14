@@ -1,10 +1,23 @@
 .App {
   text-align: center;
 
+  
+}
+.navbar{
+  z-index: 2;
+}
+.navbar-nav .nav-item{
+  margin: 0.5875rem
+}
+.spacer{
+  position: relative;
+  justify-content: center;
+  margin-top: 3rem;
 }
 
 .task-container{
-  margin-top: 100px;
+  width: 90%;
+  margin: 10% auto;
   background: rgba( 255, 255, 255, 0.05 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 4px );
