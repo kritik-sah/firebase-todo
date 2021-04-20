@@ -8,13 +8,13 @@ import firebase from 'firebase'
 
 
   const firebassApp = firebase.initializeApp({
-    aapiKey: "AIzaSyBoBTIDEFgmbmxY7oHW-cph6o3Q5s35Z3U",
-    authDomain: "fire-todo-c78a0.firebaseapp.com",
-    projectId: "fire-todo-c78a0",
-    storageBucket: "fire-todo-c78a0.appspot.com",
-    messagingSenderId: "134273826363",
-    appId: "1:134273826363:web:73196843604abb9df7a61e",
-    measurementId: "G-P3KR6RZ75J"
+    aapiKey: "xxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    authDomain: "fire-todo-xxxxxxxx.firebaseapp.com",
+    projectId: "fire-todo-xxxxxxx",
+    storageBucket: "fire-todo-xxxxxx.appspot.com",
+    messagingSenderId: "xxxxxxxxxxxxxx",
+    appId: "1:xxxxxxxxxxxx:web:xxxxxxxxxxxxxxxxxxx",
+    measurementId: "G-xxxxxxxxxxxxxxx"
   })
 
   const db = firebassApp.firestore();
